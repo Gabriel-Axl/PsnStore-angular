@@ -1,0 +1,26 @@
+
+.offer-container{
+    position: relative;
+    padding: 1rem;
+    top: 5rem;
+    width: 90%;
+    background: white;
+    margin: auto;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.offer-title > h1{
+    font-size: 4rem;
+    font-weight: 100;
+}
+.offer-item-container > ul{
+    display: flex;
+    padding: 3rem;
+}
+.offer-item-container > ul > li{
+    justify-self: center;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0 2rem;
+}

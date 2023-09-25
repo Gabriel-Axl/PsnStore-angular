@@ -1,0 +1,11 @@
+.label-container{
+    position: absolute;
+    right: 0;
+    bottom: 60px;
+}
+
+.label-content{
+    padding: 0.5rem 1rem;
+    background-color: rgba(0, 0, 0, 0.692);
+    color: white;
+}
