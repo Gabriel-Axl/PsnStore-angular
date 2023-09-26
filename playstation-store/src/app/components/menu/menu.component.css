@@ -13,6 +13,7 @@
 
 .menu-logo > img{
     height: 35px;
+    margin-left: 2rem;
 }
 
 .menu-logo {
@@ -44,6 +45,7 @@
     transition-delay: 0s;
     border: 1px solid transparent;
     border-radius: 1rem;
+    text-decoration: none;
 }
 
 .btns-list> li> a:hover{
