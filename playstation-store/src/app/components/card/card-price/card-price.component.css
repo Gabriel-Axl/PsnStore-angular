@@ -3,7 +3,7 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 3rem;
+    height: 3.5rem;
     background-color: rgba(0, 0, 0, 0.692);
     color: aliceblue;
     display: flex;
@@ -22,6 +22,9 @@
 }
 .price-title{
     font-weight: bold;
+}
+.price-title > p{
+    margin: 0;
 }
 .price-game-formate > p{
     margin-right:  1rem;

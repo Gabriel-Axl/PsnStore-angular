@@ -16,6 +16,7 @@
 .card-img-container > img:hover{
     transform: scale(1.05);
 }
+
 .card-container-link{
     margin: 0;
     padding: 0;

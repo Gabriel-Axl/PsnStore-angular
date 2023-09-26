@@ -4,12 +4,20 @@
     </div>
     <div class="menu-btns-container">
         <ul class="btns-list">
-            <li><a href="">Novidades</a></li>
-            <li><a href="">Coleções</a></li>
-            <li><a href="">Ofertas</a></li>
-            <li><a href="">PS5</a></li>
-            <li><a href="">Assinaturas</a></li>
-            <li><a href="">Navegar</a></li>
+            <li><a 
+                [routerLink]="['']"
+                [routerLinkActive]="'btn-activate'"
+                [routerLinkActiveOptions]="{ exact: true }"
+                >Novidades</a></li>
+            <li><a href="#">Coleções</a></li>
+            <li><a 
+                [routerLink]="['offers']" 
+                [routerLinkActive]="'btn-activate'"
+                >Ofertas</a>
+            </li>
+            <li><a href="#">PS5</a></li>
+            <li><a href="#">Assinaturas</a></li>
+            <li><a href="#">Navegar</a></li>
         </ul>
     </div>
 </div>
