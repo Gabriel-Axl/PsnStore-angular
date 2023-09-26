@@ -3,7 +3,7 @@
     width: 16rem;
     height: 20rem;
     overflow: hidden;
-    border: 1px solid green;
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 1rem;
 }
 

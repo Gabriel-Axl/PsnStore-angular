@@ -12,8 +12,6 @@
     display: flex;
 }
 .price-plataform > ul > li{
-    border: 1px solid white;
-    border-width: 0 0 0 1px;
     padding: 0  4px;
     color: rgba(252, 252, 252, 0.581);
     list-style-type: none;
@@ -31,7 +29,7 @@
 .price-value > span{
     padding: 0.5rem;
     white-space: nowrap;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: bold;
 }
 .price-value{

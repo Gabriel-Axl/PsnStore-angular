@@ -16,7 +16,8 @@
 }
 .offer-item-container > ul{
     display: flex;
-    padding: 3rem;
+    justify-content: space-between;
+    padding: 3rem 6rem;
 }
 .offer-item-container > ul > li{
     justify-self: center;

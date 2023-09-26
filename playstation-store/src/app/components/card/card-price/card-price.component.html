@@ -1,20 +1,19 @@
 <div class="price-container">
     <div class="price-details-container">
         <div class="price-title">
-            <p>card-price works!</p>
+            <p>{{title}}</p>
         </div>
         <div class="price-plataform">
             <div class="price-game-formate">
-                <p>digital</p>
+                <p>{{format}}</p>
             </div>
-            <ul>
-                <li>ps4</li>
-                <li>ps4</li>
-                <li>ps4</li>
+            <ul *ngFor="let i of plataform">
+                <p>|</p>
+                <li>{{ i }}</li>
             </ul>
         </div>
     </div> 
     <div class="price-value">
-        <span>R$50.99</span>
+        <span>{{price}}</span>
     </div> 
 </div>

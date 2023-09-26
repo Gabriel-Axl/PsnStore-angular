@@ -1,9 +1,17 @@
 <a href="" class="card-container-link">
     <div class="card-container">
         <div class="card-img-container">
-            <img src="../../../assets/bt-1.jpg" alt="">
+            <img src="{{img}}" alt="">
         </div>
-        <app-card-label></app-card-label>
-        <app-card-price></app-card-price>
+        <app-card-label 
+        label_text={{label_text}}
+        label_mode={{label_mode}}
+        ></app-card-label>
+        <app-card-price
+        title={{title}}
+        format={{format}}
+        [plataform]="plataform"
+        price={{price}}
+        ></app-card-price>
     </div>
 </a>
